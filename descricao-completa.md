@@ -53,3 +53,4 @@ Caso um código de cupom seja passado, o mesmo deve ser aplicado sobre o valor d
 
 * Crie um backlog com as tarefas antes de qualquer coisa. Aqui é um exercício de imaginação e ele é muito importante para a escrita de código de qualidade. A ideia é que você derive tudo que precisa ser feito para habilitar o checkout. 
 * Fique a vontade para simular os serviços necessários para integrações como o de pix, gateway de cartão etc
+* Está com dúvida? Manda uma mensagem no privado ou no canal público do Discord. Existe uma boa chance de alguma informação aqui precisar ser refinada. 
