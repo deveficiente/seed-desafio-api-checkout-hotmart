@@ -35,6 +35,7 @@ Caso um código de cupom seja passado, o mesmo deve ser aplicado sobre o valor d
 
 ## Critérios de aceitação
 
+* Crie um backlog com as tarefas antes de qualquer coisa. Aqui é um exercício de imaginação e ele é muito importante para a escrita de código de qualidade. A ideia é que você derive tudo que precisa ser feito para habilitar o checkout (sim, aqui é para você treinar a habilidade de triturar requisitos).
 * Critérios específicos para compras com cartão de crédito
   * O número de parcelas deve ser menor ou igual ao limite configurado na oferta.
   * Caso a oferta tenha sido configurada para aceitar parcelamento inteligente, o valor precisa ser dividido considerando o maior número de parcelas configurado na oferta e este valor deve ser cobrado de maneira recorrente no cartão da pessoa.  
@@ -51,6 +52,6 @@ Caso um código de cupom seja passado, o mesmo deve ser aplicado sobre o valor d
 
 ## Informações adicionais
 
-* Crie um backlog com as tarefas antes de qualquer coisa. Aqui é um exercício de imaginação e ele é muito importante para a escrita de código de qualidade. A ideia é que você derive tudo que precisa ser feito para habilitar o checkout. 
 * Fique a vontade para simular os serviços necessários para integrações como o de pix, gateway de cartão etc
-* Está com dúvida? Manda uma mensagem no privado ou no canal público do Discord. Existe uma boa chance de alguma informação aqui precisar ser refinada. 
+* Está com dúvida? Manda uma mensagem no privado ou no canal público do Discord. Existe uma boa chance de alguma informação aqui precisar ser refinada.
+* Implemente na stack de tecnologias que preferir
