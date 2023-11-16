@@ -22,6 +22,7 @@ Caso um código de cupom seja passado, o mesmo deve ser aplicado sobre o valor d
 * Para cada infoproduto você define o tempo de acesso
 * Caso tenha sido escolhida modelo de inscriçao recorrente, você define o tempo de renovação. 
 * Na oferta você configura:
+    * Se ela é default (precisa de pelo menos uma oferta default). Ela é usada como redirect quando um link de oferta inativa é utilizada. 
     * Preço
     * Número máximo de parcelas
     * Moeda que você quer oferecer (aqui não leve em consideração neste desafio)
