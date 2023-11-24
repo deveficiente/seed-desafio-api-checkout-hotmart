@@ -32,7 +32,8 @@ Caso um código de cupom seja passado, o mesmo deve ser aplicado sobre o valor d
 * A hotmart define o valor de juros ao mês a ser cobrado para parcelamento. Esse valor precisa ser configurável também por conta. Essa explicação pode ser conferida aqui também
 [https://help.hotmart.com/pt-br/article/quais-tipos-e-formas-de-pagamento-eu-posso-escolher-para-meu-produto-/216440337](https://help.hotmart.com/pt-br/article/quais-tipos-e-formas-de-pagamento-eu-posso-escolher-para-meu-produto-/216440337)
 * Quando uma compra é feita, a comissão da hotmart é calculada em cima do valor total que vai ser repassado para a pessoa infoprodutora. Se for uma compra parcelada com o infoprodutor assumindo o juros, esse valor também é descontado na comissão. Ambos são calculados em cima do valor real. Ex: Uma compra de **100** é feita divida em 10x e realizada sem parcelamento inteligente, ou seja o valor é dividido no cartão mas o infoprodutor recebe de uma vez só. Suponha uma taxa de comissão de 10% e um taxa de juros de 0,5% ao mês(6% ao ano). Nesse caso, 5% seria descontado dos **100** + 10% em cima do mesmo **100**.  No final sobraria 85 para a pessoa infoprodutora. 
-* Se for uma compra parcelada com o juros sendo repassado para a pessoa cliente, aí basta descontar a comissão padrão da Hotmart. 
+* Se for uma compra parcelada com o juros sendo repassado para a pessoa cliente, aí basta descontar a comissão padrão da Hotmart.
+* Se uma oferta inexistente for acessada, é usada a oferta principal como resposta.
 
 ## Critérios de aceitação
 
