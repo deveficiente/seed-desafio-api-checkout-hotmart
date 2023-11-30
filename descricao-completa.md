@@ -26,7 +26,7 @@ Caso um código de cupom seja passado, o mesmo deve ser aplicado sobre o valor d
     * Preço
     * Número máximo de parcelas
     * Moeda que você quer oferecer (aqui não leve em consideração neste desafio)
-    * Quem vai pagar juros? pessoa compradora ou infoprodutora. Quando a escolha é a pessoa compradora, o valor da parcela leva em consideração a taxa. Quando a escolha é a própria pessoa compradora, isso influencia no seu calculo de comisso. 
+    * Quem vai pagar juros? pessoa compradora ou infoprodutora. Quando a escolha é a pessoa compradora, o valor da parcela leva em consideração a taxa. Quando a escolha é a própria pessoa infoprodutora, isso influencia no seu calculo de comissão. 
     * A ativação do parcelamento inteligente. Ele é ativado quando o valor total da compra não cabe no cartão. Nesse caso é feita a cobrança no cartão no valor condicionado ao número máximo de parcelas. Se o máximo for 10 e compra for de 100, então vai rolar a tentativa de debitar 10 do cartão. E aí durante dez meses vai ser realizado tal débito. 
 * A hotmart define a taxa X de comissão por venda, onde X é configurável por infoprodutos. Existe um valor default, mas ele pode variar em função de negociações. 
 * A hotmart define o valor de juros ao mês a ser cobrado para parcelamento. Esse valor precisa ser configurável também por conta. Essa explicação pode ser conferida aqui também
